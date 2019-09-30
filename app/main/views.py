@@ -19,9 +19,9 @@ def index():
     pitch = Pitch.query.filter_by().first()
     title = 'Home'
     pickuplines = Pitch.query.filter_by(category="pickuplines")
-    interviewpitch = Pitch.query.filter_by(category = "motivationpitch")
-    promotionpitch = Pitch.query.filter_by(category = "inspirationpitch")
-    productpitch = Pitch.query.filter_by(category = "funnypitch")
+    motivationpitch = Pitch.query.filter_by(category = "motivationpitch")
+    inspirationpitch = Pitch.query.filter_by(category = "inspirationpitch")
+    funnypitch = Pitch.query.filter_by(category = "funnypitch")
 
     upvotes = Upvote.get_all_upvotes(pitch_id=Pitch.id)
     
