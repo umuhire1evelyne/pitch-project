@@ -26,13 +26,6 @@ This is a web application that allows users to submit pitches based on categorie
 * Postgressql
 * Heroku
 
-## Installation steps
-
-* $ git clone https://pitch-appl.herokuapp.com/
-* $ cd Pitch
-* $ source virtual/bin/activate
-* $ ./start.sh
-
 ## Behavior Driven Development(BDD)
 
 This is an application that allows users to create pitches and submit based on categories. it requires first to login after submission, you will get all the list of pitches. a user has an option of creating his/her own pitch and submit them according to which category that the users choose. A user can also be able to comment and vote on another user's pitches.
