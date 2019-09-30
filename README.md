@@ -6,9 +6,10 @@ This is a web application that allows users to submit pitches based on categorie
 
 ## Pitch Categories
 
+* Motivation pitches
+* inspiration pitches
 * pickup lines
-* interview pitches
-* product pitches
+* funny pitches
 
 ## User Stories
 
@@ -34,7 +35,7 @@ This is a web application that allows users to submit pitches based on categorie
 
 ## Behavior Driven Development(BDD)
 
-This is an application that allows users to create pitches and submit based on categories. it requires first to login after submission, you will get all the list of pitches. a user has an option of creating his/her own pitch and submit them according to which category that the users choose. A user can also be able to comment and vote on another user's pitchescd
+This is an application that allows users to create pitches and submit based on categories. it requires first to login after submission, you will get all the list of pitches. a user has an option of creating his/her own pitch and submit them according to which category that the users choose. A user can also be able to comment and vote on another user's pitches.
 
 
 
